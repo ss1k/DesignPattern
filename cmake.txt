@@ -1,0 +1,9 @@
+add_executable(project strategy.cpp)
+
+//
+aux_source_directory(./state CPP_LIST2)
+add_executable(project ${CPP_LIST2})
+//
+aux_source_directory(. CPP_LIST1)
+aux_source_directory(./tool1 CPP_LIST2)
+add_executable(project ${CPP_LIST1} ${CPP_LIST2})
