@@ -1,7 +1,12 @@
 [
 {
   "directory": "/home/s/code/c++/DesignPattern/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/project.dir/prototype.cpp.o -c /home/s/code/c++/DesignPattern/prototype.cpp",
-  "file": "/home/s/code/c++/DesignPattern/prototype.cpp"
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/project.dir/proxy/main.cpp.o -c /home/s/code/c++/DesignPattern/proxy/main.cpp",
+  "file": "/home/s/code/c++/DesignPattern/proxy/main.cpp"
+},
+{
+  "directory": "/home/s/code/c++/DesignPattern/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/project.dir/proxy/proxy.cpp.o -c /home/s/code/c++/DesignPattern/proxy/proxy.cpp",
+  "file": "/home/s/code/c++/DesignPattern/proxy/proxy.cpp"
 }
 ]

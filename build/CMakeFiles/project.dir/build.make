@@ -57,41 +57,67 @@ include CMakeFiles/project.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/project.dir/flags.make
 
-CMakeFiles/project.dir/prototype.cpp.o: CMakeFiles/project.dir/flags.make
-CMakeFiles/project.dir/prototype.cpp.o: ../prototype.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/code/c++/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project.dir/prototype.cpp.o"
-	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/prototype.cpp.o -c /home/s/code/c++/DesignPattern/prototype.cpp
+CMakeFiles/project.dir/proxy/main.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/proxy/main.cpp.o: ../proxy/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/code/c++/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project.dir/proxy/main.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/proxy/main.cpp.o -c /home/s/code/c++/DesignPattern/proxy/main.cpp
 
-CMakeFiles/project.dir/prototype.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/prototype.cpp.i"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/code/c++/DesignPattern/prototype.cpp > CMakeFiles/project.dir/prototype.cpp.i
+CMakeFiles/project.dir/proxy/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/proxy/main.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/code/c++/DesignPattern/proxy/main.cpp > CMakeFiles/project.dir/proxy/main.cpp.i
 
-CMakeFiles/project.dir/prototype.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/prototype.cpp.s"
-	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/code/c++/DesignPattern/prototype.cpp -o CMakeFiles/project.dir/prototype.cpp.s
+CMakeFiles/project.dir/proxy/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/proxy/main.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/code/c++/DesignPattern/proxy/main.cpp -o CMakeFiles/project.dir/proxy/main.cpp.s
 
-CMakeFiles/project.dir/prototype.cpp.o.requires:
+CMakeFiles/project.dir/proxy/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/project.dir/prototype.cpp.o.requires
+.PHONY : CMakeFiles/project.dir/proxy/main.cpp.o.requires
 
-CMakeFiles/project.dir/prototype.cpp.o.provides: CMakeFiles/project.dir/prototype.cpp.o.requires
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/prototype.cpp.o.provides.build
-.PHONY : CMakeFiles/project.dir/prototype.cpp.o.provides
+CMakeFiles/project.dir/proxy/main.cpp.o.provides: CMakeFiles/project.dir/proxy/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/proxy/main.cpp.o.provides.build
+.PHONY : CMakeFiles/project.dir/proxy/main.cpp.o.provides
 
-CMakeFiles/project.dir/prototype.cpp.o.provides.build: CMakeFiles/project.dir/prototype.cpp.o
+CMakeFiles/project.dir/proxy/main.cpp.o.provides.build: CMakeFiles/project.dir/proxy/main.cpp.o
+
+
+CMakeFiles/project.dir/proxy/proxy.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/proxy/proxy.cpp.o: ../proxy/proxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s/code/c++/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project.dir/proxy/proxy.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/proxy/proxy.cpp.o -c /home/s/code/c++/DesignPattern/proxy/proxy.cpp
+
+CMakeFiles/project.dir/proxy/proxy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/proxy/proxy.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s/code/c++/DesignPattern/proxy/proxy.cpp > CMakeFiles/project.dir/proxy/proxy.cpp.i
+
+CMakeFiles/project.dir/proxy/proxy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/proxy/proxy.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s/code/c++/DesignPattern/proxy/proxy.cpp -o CMakeFiles/project.dir/proxy/proxy.cpp.s
+
+CMakeFiles/project.dir/proxy/proxy.cpp.o.requires:
+
+.PHONY : CMakeFiles/project.dir/proxy/proxy.cpp.o.requires
+
+CMakeFiles/project.dir/proxy/proxy.cpp.o.provides: CMakeFiles/project.dir/proxy/proxy.cpp.o.requires
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/proxy/proxy.cpp.o.provides.build
+.PHONY : CMakeFiles/project.dir/proxy/proxy.cpp.o.provides
+
+CMakeFiles/project.dir/proxy/proxy.cpp.o.provides.build: CMakeFiles/project.dir/proxy/proxy.cpp.o
 
 
 # Object files for target project
 project_OBJECTS = \
-"CMakeFiles/project.dir/prototype.cpp.o"
+"CMakeFiles/project.dir/proxy/main.cpp.o" \
+"CMakeFiles/project.dir/proxy/proxy.cpp.o"
 
 # External object files for target project
 project_EXTERNAL_OBJECTS =
 
-project: CMakeFiles/project.dir/prototype.cpp.o
+project: CMakeFiles/project.dir/proxy/main.cpp.o
+project: CMakeFiles/project.dir/proxy/proxy.cpp.o
 project: CMakeFiles/project.dir/build.make
 project: CMakeFiles/project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/s/code/c++/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/s/code/c++/DesignPattern/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/project.dir/build: project
 
 .PHONY : CMakeFiles/project.dir/build
 
-CMakeFiles/project.dir/requires: CMakeFiles/project.dir/prototype.cpp.o.requires
+CMakeFiles/project.dir/requires: CMakeFiles/project.dir/proxy/main.cpp.o.requires
+CMakeFiles/project.dir/requires: CMakeFiles/project.dir/proxy/proxy.cpp.o.requires
 
 .PHONY : CMakeFiles/project.dir/requires
 

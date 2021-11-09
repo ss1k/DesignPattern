@@ -145,32 +145,59 @@ project/fast:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/build
 .PHONY : project/fast
 
-prototype.o: prototype.cpp.o
+proxy/main.o: proxy/main.cpp.o
 
-.PHONY : prototype.o
+.PHONY : proxy/main.o
 
 # target to build an object file
-prototype.cpp.o:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/prototype.cpp.o
-.PHONY : prototype.cpp.o
+proxy/main.cpp.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/proxy/main.cpp.o
+.PHONY : proxy/main.cpp.o
 
-prototype.i: prototype.cpp.i
+proxy/main.i: proxy/main.cpp.i
 
-.PHONY : prototype.i
+.PHONY : proxy/main.i
 
 # target to preprocess a source file
-prototype.cpp.i:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/prototype.cpp.i
-.PHONY : prototype.cpp.i
+proxy/main.cpp.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/proxy/main.cpp.i
+.PHONY : proxy/main.cpp.i
 
-prototype.s: prototype.cpp.s
+proxy/main.s: proxy/main.cpp.s
 
-.PHONY : prototype.s
+.PHONY : proxy/main.s
 
 # target to generate assembly for a file
-prototype.cpp.s:
-	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/prototype.cpp.s
-.PHONY : prototype.cpp.s
+proxy/main.cpp.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/proxy/main.cpp.s
+.PHONY : proxy/main.cpp.s
+
+proxy/proxy.o: proxy/proxy.cpp.o
+
+.PHONY : proxy/proxy.o
+
+# target to build an object file
+proxy/proxy.cpp.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/proxy/proxy.cpp.o
+.PHONY : proxy/proxy.cpp.o
+
+proxy/proxy.i: proxy/proxy.cpp.i
+
+.PHONY : proxy/proxy.i
+
+# target to preprocess a source file
+proxy/proxy.cpp.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/proxy/proxy.cpp.i
+.PHONY : proxy/proxy.cpp.i
+
+proxy/proxy.s: proxy/proxy.cpp.s
+
+.PHONY : proxy/proxy.s
+
+# target to generate assembly for a file
+proxy/proxy.cpp.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/proxy/proxy.cpp.s
+.PHONY : proxy/proxy.cpp.s
 
 # Help Target
 help:
@@ -183,9 +210,12 @@ help:
 	@echo "... project"
 	@echo "... package_source"
 	@echo "... package"
-	@echo "... prototype.o"
-	@echo "... prototype.i"
-	@echo "... prototype.s"
+	@echo "... proxy/main.o"
+	@echo "... proxy/main.i"
+	@echo "... proxy/main.s"
+	@echo "... proxy/proxy.o"
+	@echo "... proxy/proxy.i"
+	@echo "... proxy/proxy.s"
 .PHONY : help
 
 

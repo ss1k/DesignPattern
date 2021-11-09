@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/s/code/c++/DesignPattern/prototype.cpp
+/home/s/code/c++/DesignPattern/proxy/main.cpp
 iostream
+-
+proxy.h
+/home/s/code/c++/DesignPattern/proxy/proxy.h
+
+/home/s/code/c++/DesignPattern/proxy/proxy.cpp
+proxy.h
+/home/s/code/c++/DesignPattern/proxy/proxy.h
+
+/home/s/code/c++/DesignPattern/proxy/proxy.h
+iostream
+-
+string
 -
 

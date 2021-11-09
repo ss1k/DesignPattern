@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/s/code/c++/DesignPattern/prototype.cpp" "/home/s/code/c++/DesignPattern/build/CMakeFiles/project.dir/prototype.cpp.o"
+  "/home/s/code/c++/DesignPattern/proxy/main.cpp" "/home/s/code/c++/DesignPattern/build/CMakeFiles/project.dir/proxy/main.cpp.o"
+  "/home/s/code/c++/DesignPattern/proxy/proxy.cpp" "/home/s/code/c++/DesignPattern/build/CMakeFiles/project.dir/proxy/proxy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
